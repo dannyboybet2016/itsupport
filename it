@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Links</title>
+<style>
+/* CSS for styling the buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+</style>
+</head>
+<body>
+
+<h1>Button Links</h1>
+
+<button class="button" onclick="window.location.href='mailto://itservicedesk@chelseafc.com'">Email Service Desk</button>
+<button class="button" onclick="window.location.href='https://teams.microsoft.com/l/call/0/0?users=AA-IT%40ChelseaFootball.onmicrosoft.com'">Call servicedesk via Teams</button>
+<button class="button" onclick="window.location.href='https://account.activedirectory.windowsazure.com/ChangePassword.aspx'">Password reset</button>
+<button class="button" onclick="window.location.href='https://sunrise-saas.com/cfc/web/SContacts'">Log an IT Ticket Online</button>
+
+</body>
+</html>
